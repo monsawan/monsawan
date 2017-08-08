@@ -11,12 +11,12 @@ class Bicycle{
 		gear = newValue;
 	}
 
-	void changeSpeedUp(int newValue){
+	void changeSpeedUp(int increment){
 		speed = speed + increment;
 	}
 
-	void changeSpeedUp(int newValue){
-		speed = speed + decrment;
+	void changeSpeedUp(int decrment){
+		speed = speed - decrment;
 	}
 
 	void printStatus(){
