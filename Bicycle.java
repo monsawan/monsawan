@@ -15,11 +15,11 @@ class Bicycle{
 		speed = speed + increment;
 	}
 
-	void changeSpeedUp(int decrment){
+	void applyBeark(int decrment){
 		speed = speed - decrment;
 	}
 
-	void printStatus(){
+	void printStatas(){
 		System.out.println("cadence:"+cadence+"speed:"+speed+"gear:"+gear);
 	}
 }
